@@ -22,7 +22,7 @@ def pregunta_01():
     214
 
     """
-    data = r'C:\Users\santi\OneDrive\Documentos\GitHub\lab_01_python_basico-SantiagoLondono16\data.csv'
+    data = r'data.csv'
     total = 0
     with open(data) as file:
         reader = csv.reader(file, delimiter='\t')
@@ -46,7 +46,7 @@ def pregunta_02():
     ]
 
     """
-    data = r'C:\Users\santi\OneDrive\Documentos\GitHub\lab_01_python_basico-SantiagoLondono16\data.csv'
+    data = r'data.csv'
     conteo_letras = {}
 
     with open(data, mode='r') as file:
@@ -77,7 +77,7 @@ def pregunta_03():
     ]
 
     """
-    data = r'C:\Users\santi\OneDrive\Documentos\GitHub\lab_01_python_basico-SantiagoLondono16\data.csv'
+    data = r'data.csv'
     conteo_letras = {}
     with open(data, mode='r') as file:
         lector_csv = csv.reader(file, delimiter='\t')
@@ -113,7 +113,7 @@ def pregunta_04():
     ]
 
     """
-    data = r'C:\Users\santi\OneDrive\Documentos\GitHub\lab_01_python_basico-SantiagoLondono16\data.csv'
+    data = r'data.csv'
     conteo_meses = {}
     with open(data, mode='r') as file:
         lector_csv = csv.reader(file, delimiter='\t')
@@ -142,7 +142,7 @@ def pregunta_05():
     ]
 
     """
-    data = r'C:\Users\santi\OneDrive\Documentos\GitHub\lab_01_python_basico-SantiagoLondono16\data.csv'
+    data = r'data.csv'
     max_min_por_letra = {}
     with open(data, mode='r') as file:
         lector_csv = csv.reader(file, delimiter='\t')
@@ -185,7 +185,7 @@ def pregunta_06():
     ]
 
     """
-    data = r'C:\Users\santi\OneDrive\Documentos\GitHub\lab_01_python_basico-SantiagoLondono16\data.csv'
+    data = r'data.csv'
     max_min_por_letra = {}
     with open(data, mode='r') as file:
         lector_csv = csv.reader(file, delimiter='\t')
@@ -228,7 +228,7 @@ def pregunta_07():
     ]
 
     """
-    data = r'C:\Users\santi\OneDrive\Documentos\GitHub\lab_01_python_basico-SantiagoLondono16\data.csv'
+    data = r'data.csv'
     conteo_letras = {}
     with open(data, mode='r') as file:
         lector_csv = csv.reader(file, delimiter='\t')
@@ -265,7 +265,7 @@ def pregunta_08():
     ]
 
     """
-    data = r'C:\Users\santi\OneDrive\Documentos\GitHub\lab_01_python_basico-SantiagoLondono16\data.csv'
+    data = r'data.csv'
     conteo_letras = {}
     with open(data, mode='r') as file:
         lector_csv = csv.reader(file, delimiter='\t')
@@ -302,7 +302,7 @@ def pregunta_09():
     }
 
     """
-    data = r'C:\Users\santi\OneDrive\Documentos\GitHub\lab_01_python_basico-SantiagoLondono16\data.csv'
+    data = r'data.csv'
     max_min_por_letra = {}
     with open(data, mode='r') as file:
         lector_csv = csv.reader(file, delimiter='\t')
@@ -336,7 +336,7 @@ def pregunta_10():
 
 
     """
-    data = r'C:\Users\santi\OneDrive\Documentos\GitHub\lab_01_python_basico-SantiagoLondono16\data.csv'
+    data = r'data.csv'
     max_min_por_letra = []
     with open(data, mode='r') as file:
         lector_csv = csv.reader(file, delimiter='\t')
@@ -366,7 +366,7 @@ def pregunta_11():
 
 
     """
-    data = r'C:\Users\santi\OneDrive\Documentos\GitHub\lab_01_python_basico-SantiagoLondono16\data.csv'
+    data = r'data.csv'
     conteo_letras = {}
     with open(data, mode='r') as file:
         lector_csv = csv.reader(file, delimiter='\t')
@@ -397,7 +397,7 @@ def pregunta_12():
     }
 
     """
-    data = r'C:\Users\santi\OneDrive\Documentos\GitHub\lab_01_python_basico-SantiagoLondono16\data.csv'
+    data = r'data.csv'
     conteo_letras = {}
     with open(data, mode='r') as file:
         lector_csv = csv.reader(file, delimiter='\t')
